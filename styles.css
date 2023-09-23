@@ -3,6 +3,6 @@ body{
 min-height: 100vh;
 
 } 
-/* body > *{
-    margin :auto;
-} */
+body > *{
+    margin :auto 15%;
+}
