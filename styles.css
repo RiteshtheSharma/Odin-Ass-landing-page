@@ -141,6 +141,15 @@ justify-content: space-between;
     border-radius: 20px;
     /* margin:0 auto; */
 }
+section.quote {
+padding-top: 150px;
+padding-bottom: 150px;
+}
+section.quote div:last-child {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
+}
 footer{
     justify-content:center;
     padding-top:40px;
@@ -182,8 +191,9 @@ footer{
     flex-wrap: wrap;
 }
 .placeholder{
-    max-width: 70vw;
+    max-width: 64vw;
 }
+section.quote {gap:30px;}
 } 
 
 @media only screen and (max-width: 665px) {
@@ -198,4 +208,5 @@ footer{
         height:40vw;
         margin:0 auto;
     }
+    section.quote {gap:60px;}
 }
