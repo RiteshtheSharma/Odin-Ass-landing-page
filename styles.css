@@ -85,8 +85,8 @@ background-color: var(--sky_blue_color);
 color:var(--btn_text_color);
 font-weight: 700;
 width: fit-content;
-padding:8px 30px;
-border-radius: 10px;
+padding:7px 40px;
+border-radius: 8px;
 font-size: 18px;
 }
 .placeholder {
@@ -144,13 +144,28 @@ justify-content: space-between;
 section.quote {
 padding-top: 150px;
 padding-bottom: 150px;
+margin-bottom: 110px;
 }
 section.quote div:last-child {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 500;
 }
+
+aside {
+    margin: auto 15vw;
+   padding:60px 120px;
+    background-color:var(--sky_blue_color);
+    border-radius: 10px;
+    gap:30px;
+    flex-wrap: wrap;
+}
+aside button {
+    border:solid 2px white;
+    height: fit-content;
+}
 footer{
+    margin-top: 110px;
     justify-content:center;
     padding-top:40px;
     padding-bottom: 40px;
@@ -194,6 +209,9 @@ footer{
     max-width: 64vw;
 }
 section.quote {gap:30px;}
+aside {
+    padding:30px 60px;
+}
 } 
 
 @media only screen and (max-width: 665px) {
@@ -209,4 +227,12 @@ section.quote {gap:30px;}
         margin:0 auto;
     }
     section.quote {gap:60px;}
+} 
+
+
+@media only screen and (max-width: 400px) {
+
+    aside {
+        padding:30px;
+    }
 }
